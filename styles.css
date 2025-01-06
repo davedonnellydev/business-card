@@ -33,13 +33,13 @@ p, h4 {
 }
 
 .turn {
-    animation: turn 1s 1 linear;
+    animation: turn .5s 1 linear;
     transform-style: preserve-3d;
     animation-fill-mode: forwards;
 }
 
 .turn-back {
-    animation: turn-back 1s 1 linear;
+    animation: turn-back .5s 1 linear;
     transform-style: preserve-3d;
     animation-fill-mode: backwards;
 }
