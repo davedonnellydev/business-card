@@ -1,6 +1,5 @@
 body {
     background: #292d3e url("images/cream-paper.png");
-    /* background: rgba(251, 241, 228, 1) url("images/rice-paper-3.png"); */
 }
 
 h3 {
@@ -29,7 +28,7 @@ p, h4 {
 } */
 
 .spin {
-    animation: spin 2s 1 linear;
+    animation: spin 2s 2 linear;
     transform-style: preserve-3d;
 }
 
