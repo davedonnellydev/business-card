@@ -28,7 +28,7 @@ p, h4 {
 } */
 
 .spin {
-    animation: spin 2s 2 linear;
+    animation: spin 2s 1 linear;
     transform-style: preserve-3d;
 }
 
@@ -45,8 +45,20 @@ p, h4 {
 }
 
 @keyframes spin{
-    100% {
+    0%  {
+        transform: rotateY(180deg);
+    }
+
+    33% {
         transform: rotateY(360deg);
+    }
+
+    66% {
+        transform: rotateY(540deg);
+    }
+
+    100% {
+        transform: rotateY(720deg);
     }
 }
 
