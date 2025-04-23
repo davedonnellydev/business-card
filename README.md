@@ -1,4 +1,4 @@
-# Personalised Business Card #
+# Personalised Business Card
 Created as part of the Scrimba Frontend Developer Career Path course. 
 Personalised using:
 
